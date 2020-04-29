@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 2px;
+    
+}
+.body{
+    padding: 0 10px;
+}
+.title{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form{
+    background-color: mediumslateblue;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    padding: 30px;
+    display: flexbox;
+    
+
+}
+.form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.form .inputfield .notice, .note{
+    text-transform: lowercase;
+}
+.form .inputfield label{
+    width: 200px;
+    margin-left: 10px;
+}
+.form .inputfield .input,
+.form .inputfield .textarea{
+    padding: 4px 6px;
+    transition: all 0.3 ease;
+    border-radius: 2px;
+}
+.form .inputfield .area{
+    resize: none;
+    padding-left: 5rem;
+}
+
+.form .table .stile{
+    padding-left: 5rem;
+}
+.form .cat{
+    padding-left: 6rem;
+}
+.thanks{
+    color: green;
+}
+.confirm{
+    color: mediumorchid;
+}
